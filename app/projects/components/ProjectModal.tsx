@@ -16,7 +16,7 @@ export const ProjectModal = ({ project, onClose }: ProjectModalProps) => {
           ✕
         </button>
         <h2 className="text-2xl font-bold mb-4">{project.title}</h2>
-        <p>{project.description}</p>
+
         <div className="mt-4 text-sm text-gray-500">
           {project.stack?.join(", ")}
         </div>

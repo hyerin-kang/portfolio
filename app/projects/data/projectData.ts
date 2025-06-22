@@ -5,7 +5,7 @@ export interface ProjectDataType {
   duration: string;
   stack: string[];
 }
-export const projectData = [
+export const projectData: ProjectDataType[] = [
   {
     coverImg: "/images/image-profile.jpg",
     title: "혜린 포트폴리오",
