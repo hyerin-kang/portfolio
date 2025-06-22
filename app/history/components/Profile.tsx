@@ -13,7 +13,7 @@ export const Profile = () => {
         />
       </div>
       <div className=" flex-1 p-8 border border-gray-400 rounded-lg bg-white flex items-center justify-center text-center leading-8 text-lg">
-        <div className="break-keep">
+        <div className="break-keep text-gray-800">
           <span className="bg-blue-100 p-1 rounded-md font-bold text-blue-900">
             웹 디자인부터 웹 퍼블리싱까지
           </span>{" "}

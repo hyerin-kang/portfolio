@@ -8,7 +8,7 @@ interface SectionTitleProps {
 const SectionTitle = ({ title, subtitle, icon }: SectionTitleProps) => {
   return (
     <div className="mb-4 border-b border-gray-300 pb-2 flex items-center justify-between">
-      <h1 className="text-2xl font-semibold flex items-center gap-2">
+      <h1 className="text-2xl font-semibold flex items-center gap-2 text-gray-900">
         <span>{icon}</span>
         {title}
       </h1>
