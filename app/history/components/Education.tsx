@@ -22,16 +22,16 @@ export const Education = () => {
             />
             <div className="flex-1">
               <div className="flex flex-col gap-1 mb-2">
-                <h2 className="text-lg font-medium">{edu.school}</h2>
+                <h2 className="text-xl font-medium">{edu.school}</h2>
                 <p className="text-sm text-gray-500">
                   {edu.startDate} ~ {edu.endDate}
                 </p>
               </div>
-              <p className="text-sm text-gray-700">
+              <p className="text-md text-gray-700">
                 <span>전공:</span> {edu.fieldOfStudy1}
               </p>
               {edu.fieldOfStudy2 && (
-                <p className="text-sm text-gray-700 mt-1">
+                <p className="text-md text-gray-700 mt-1">
                   <span>복수전공:</span> {edu.fieldOfStudy2}
                 </p>
               )}

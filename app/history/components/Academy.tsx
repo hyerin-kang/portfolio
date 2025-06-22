@@ -19,10 +19,12 @@ export const Academy = () => {
               />
             </div>
             <div className="flex-1">
-              <p className="text-sm text-gray-500 mb-1">
+              <p className="text-md text-gray-500 mb-1">
                 {academy.startDate} ~ {academy.endDate}
               </p>
-              <p className="text-gray-700">{academy.fieldOfStudy1}</p>
+              <p className="text-gray-900 text-lg font-medium">
+                {academy.fieldOfStudy1}
+              </p>
               {academy.fieldOfStudy2 && (
                 <p className="text-gray-700">{academy.fieldOfStudy2}</p>
               )}
