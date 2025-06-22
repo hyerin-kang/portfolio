@@ -9,7 +9,10 @@ export const Academy = () => {
       <SectionTitle icon={<NotebookPen size={24} />} title={"교육활동"} />
       <ul className="divide-y divide-gray-200">
         {academyData.map((academy, index) => (
-          <li key={index} className="flex items-center gap-4 py-4">
+          <li
+            key={index}
+            className="flex-col md:flex-row flex items-center gap-4 py-4"
+          >
             <div className="w-[100px]">
               <Image
                 src={academy.logo}
@@ -19,7 +22,7 @@ export const Academy = () => {
               />
             </div>
             <div className="flex-1">
-              <p className="text-md text-gray-500 mb-1">
+              <p className="text-base	 text-gray-500 mb-1">
                 {academy.startDate} ~ {academy.endDate}
               </p>
               <p className="text-gray-900 text-lg font-medium">

@@ -10,8 +10,12 @@ export default function ProjectPage() {
 
   return (
     <>
-      <h1>PROJECTS</h1>
-      <p>프로젝트를 클릭하면 해당 프로젝트의 상세 내용을 확인할 수 있습니다.</p>
+      <div className="flex flex-col items-center gap-5 text-center">
+        <h1 className="text-blue-900 font-extrabold text-3xl">PROJECTS</h1>
+        <p className="text-gray-700 text-xl font-medium">
+          프로젝트를 클릭하면 해당 깃허브 / 사이트로 이동할수 있습니다.
+        </p>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
         {projectData.map((project, i) => (
           <ProjectCard

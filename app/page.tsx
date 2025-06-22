@@ -41,19 +41,19 @@ export default function Home() {
       <div className="mt-10 flex gap-4 flex-wrap justify-center">
         <Link
           href="/history"
-          className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition"
+          className="bg-black text-white px-6 py-3 rounded-lg hover:bg-transparent hover:text-black hover:border-2 transition border-2"
         >
           HISTORY
         </Link>
         <Link
           href="/projects"
-          className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition"
+          className="bg-black text-white px-6 py-3 rounded-lg hover:bg-transparent hover:text-black hover:border-2 transition border-2"
         >
           PROJECTS
         </Link>
         <Link
           href="/about"
-          className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition"
+          className="bg-black text-white px-6 py-3 rounded-lg hover:bg-transparent hover:text-black hover:border-2 transition border-2"
         >
           ABOUT
         </Link>

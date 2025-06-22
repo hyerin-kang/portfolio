@@ -22,7 +22,7 @@ export const ProjectCard = ({ project, onClick }: ProjectCardProps) => {
         />
       </div>
       <div className="p-4">
-        <h2 className="text-xl font-bold">{project.title}</h2>
+        <h2 className="text-xl font-bold text-gray-700">{project.title}</h2>
         <p className="text-sm text-gray-600 mt-2">{project.summary}</p>
         {project.duration.includes("진행중") ? (
           <p className="text-sm text-gray-600 mt-2">{project.duration}</p>

@@ -37,7 +37,7 @@ export const Career = () => {
                   <span>{career.position2}</span>
                 </h2>
                 {/* 기간 */}
-                <p className="text-md text-gray-500">
+                <p className="text-base	 text-gray-500">
                   {career.period} ({career.durationText})
                 </p>
               </div>
@@ -71,7 +71,7 @@ export const Career = () => {
                 ))}
               </ul>
 
-              <p className="mt-2 text-md text-gray-600">
+              <p className="mt-2 text-base	 text-gray-600">
                 <strong>기술 스택:</strong> {career.skill.join(", ")}
               </p>
             </li>
