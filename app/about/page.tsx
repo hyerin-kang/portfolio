@@ -18,7 +18,9 @@ export default function AboutPage() {
 
   return (
     <section className="container mx-auto w-fit">
-      <h1 className="text-4xl font-bold mb-10 text-center">About Me</h1>
+      <h1 className="text-4xl font-bold mb-10 text-center text-gray-800">
+        About Me
+      </h1>
 
       <div className="flex flex-col md:flex-row gap-8 items-center">
         <div className="w-[280px] h-[360px] relative rounded-xl overflow-hidden shadow-md">
