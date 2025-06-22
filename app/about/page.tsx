@@ -36,7 +36,7 @@ export default function AboutPage() {
           <p className="mb-2">💻 낮에는 코드를 짜고</p>
           <p className="mb-2">🌙 밤에는 버그와 싸우는</p>
           <p className="mb-2">
-            <strong className="text-blue-600">프론트엔드 개발자 강혜린</strong>
+            <strong className="text-blue-700">프론트엔드 개발자 강혜린</strong>
             입니다.
           </p>
           <p>
@@ -54,7 +54,7 @@ export default function AboutPage() {
           <li className="flex items-center gap-3 justify-center">
             <Globe size={20} />
             <a
-              href="https://your-blog-url.com"
+              href="https://rinny01.tistory.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="underline hover:text-blue-600 transition text-gray-900"
@@ -65,7 +65,7 @@ export default function AboutPage() {
           <li className="flex items-center gap-3  justify-center">
             <Github size={20} />
             <a
-              href="https://github.com/your-github-id"
+              href="https://github.com/hyerin-kang"
               target="_blank"
               rel="noopener noreferrer"
               className="underline hover:text-blue-600 transition  text-gray-900"
