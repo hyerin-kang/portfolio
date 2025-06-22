@@ -1,5 +1,10 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
-  return <div className="">포폴</div>;
+  return (
+    <div className="">
+      <p>포폴</p>
+      <Link href="/history">WORK</Link>
+    </div>
+  );
 }
