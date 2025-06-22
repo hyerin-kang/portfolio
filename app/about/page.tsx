@@ -45,7 +45,9 @@ export default function AboutPage() {
       </div>
 
       <div className="mt-12 border-t pt-8 text-center">
-        <h2 className="text-2xl font-semibold mb-4">🔗 Contact & Links</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-gray-700">
+          🔗 Contact & Links
+        </h2>
         <ul className="space-y-4 text-md text-gray-800  bg-white p-10 rounded-2xl shadow-md">
           <li className="flex items-center gap-3 justify-center">
             <Globe size={20} />
@@ -53,7 +55,7 @@ export default function AboutPage() {
               href="https://your-blog-url.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline hover:text-blue-600 transition"
+              className="underline hover:text-blue-600 transition text-gray-900"
             >
               블로그 구경하러 가기 ✍️
             </a>
@@ -64,7 +66,7 @@ export default function AboutPage() {
               href="https://github.com/your-github-id"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline hover:text-blue-600 transition"
+              className="underline hover:text-blue-600 transition  text-gray-900"
             >
               코드 구경은 여기서 🛠️
             </a>
