@@ -8,7 +8,7 @@ export default function RootLayout({
   return (
     <div>
       <Header />
-      <div className=" mx-auto px-4 py-8 pt-20 h-screen bg-gray-100">
+      <div className="mx-auto px-4 py-8 pt-20 h-screen bg-gray-100">
         {children}
       </div>
     </div>

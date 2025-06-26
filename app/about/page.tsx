@@ -17,7 +17,7 @@ export default function AboutPage() {
   };
 
   return (
-    <section className="container mx-auto w-fit">
+    <section className="container mx-auto w-fit h-full">
       <h1 className="text-4xl font-bold mb-10 text-center text-gray-800">
         About Me
       </h1>
