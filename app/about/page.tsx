@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function AboutPage() {
   const [copied, setCopied] = useState(false);
-  const email = "hknag0420@gmail.com";
+  const email = "sally950420@naver.com";
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(email).then(() => {

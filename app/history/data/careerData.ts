@@ -16,7 +16,7 @@ export const carreers: CareersType[] = [
     company: "키즐링",
     position1: "인턴",
     position2: "프론트엔드 개발",
-    period: "2025.06.04 ~ 2025.07.01",
+    period: " 2025.06 ~ 2025.06",
     skill: ["React", "TypeScript", "Tailwind CSS"],
     description: [
       { text: "프론트엔드 웹 애플리케이션 UI 및 기능 개발" },
@@ -31,8 +31,8 @@ export const carreers: CareersType[] = [
     period: "2022.10.4 ~ 2024.06.19",
     skill: ["HTML", "CSS", "JavaScript", "jQuery"],
     description: [
-      { text: "HTML, CSS, jQuery를 활용한 반응형 웹 퍼블리싱" },
-      { text: "Git을 활용한 형상 관리 및 팀 협업 경험" },
+      { text: "HTML, CSS, JavaScript를 활용한 반응형 웹 퍼블리싱" },
+      { text: " 웹 표준과 웹 접근성 준수, 다양한 기기를 위한 웹 호환성 작업" },
       {
         text: "프로젝트 파견 : 질병관리청 (2023.05 ~ 2024.02) | 통합서비스(신규) 감염병포털 | Q-CODE | 서브 및 공통 퍼블리싱 | 웹접근성 | 웹호환성",
         links: [
@@ -41,7 +41,7 @@ export const carreers: CareersType[] = [
         ],
       },
       {
-        text: "프로젝트 파견 : 코트라 무역투자24 (2024.02 ~ 2024.05) | 오픈 전 수정 및 유지보수",
+        text: "프로젝트 파견 : 코트라 무역투자24 (2024.02 ~ 2024.04) | 오픈 전 수정 및 유지보수",
         links: ["https://www.kotra.or.kr/index.do"],
       },
     ],
